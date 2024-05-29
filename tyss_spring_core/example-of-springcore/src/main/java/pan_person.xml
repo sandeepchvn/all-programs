@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<bean id="myPan" class="person_pan.Pan">
+		<property name="panNumber" value="234"></property>
+		<property name="address" value="btm"></property>
+	</bean>
+	<bean id="myPerson" class="person_pan.Person">
+		<property name="name" value="XYZ"></property>
+		<property name="phone" value="7676"></property>
+		<property name="pan" ref="myPan"></property>
+	</bean>
+	
+</beans>

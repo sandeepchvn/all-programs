@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <form  action="home.html" method="" style="border: 2px solid black;">
+
+        <legend>Regform</legend>
+
+
+        
+        <label for="FN">FIRST NAME</label>
+        <input type="text" name="firstname" id="FN" placeholder="enter name"><br>
+
+        <label for="LN">LAST NAME</label>
+        <input type="text" name="lastname" id="LN" max="10" min="4"><br>
+
+        <label for="EM">EMAIL</label>
+        <input type="email" name="email" id="EM" required><br>
+
+        
+        <label for="GN">GENDER</label>
+        <input type="radio" name="Gender" id="GN" value="Male">male
+        <input type="radio" name="Gender" id="GN" value="Female">female<br>
+
+        <label for="skills">SKILL</label>
+        <input type="checkbox" name="skills" id="skills" value="HTML" checked>HTML
+        <input type="checkbox" name="skills" id="skills" value="CSS">CSS
+        <input type="checkbox" name="skills" id="skills" value="JAVA">JAVA <br>
+
+        <label for="PH">PHONE:</label>
+        <input type="tel" name="phone" id="PH" maxlength="10" minlength="10"><br>
+
+        <label for="pass">Phassword:</label>
+        <input type="password" name="Password" id="pass"><br>
+        <input type="submit"><br>
+
+        <label for="com">COMPANY</label>
+        <input type="text" value="TYSS" readonly><br>
+
+        <label for="lng">language known</label>
+        <select name="Language" id="lng">
+            <option value="kan">KANNADA</option>
+            <option value="eng">ENGLISH</option>
+            <option value="hin">HINDI</option>
+        </select><br>
+
+        <label for="fl">Resume</label>
+        <input type="file"><br>
+
+        <label for="adds">ADDRESS</label>
+        <textarea name="" id="" cols="50" rows="3"></textarea>
+    </form>
+</body>
+</html>

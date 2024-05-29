@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\sande\Desktop\tyss\tyss_file_handling\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1692729972.index
+3567249706.index

@@ -1,0 +1,25 @@
+package com.transientt;
+
+import java.io.Serializable;
+
+public class Person implements Serializable {
+	int phone;
+	transient int age;
+
+	public int getPhone() {
+		return phone;
+	}
+
+	public void setPhone(int phone) {
+		this.phone = phone;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+}

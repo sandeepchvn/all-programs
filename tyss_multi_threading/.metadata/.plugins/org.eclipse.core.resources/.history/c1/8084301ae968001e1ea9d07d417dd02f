@@ -1,0 +1,10 @@
+package com.ty.syncronise;
+
+public class Students {
+	String name;
+	Trainer trainer;
+
+	Students(String name, Trainer trainer) {
+
+	}
+}

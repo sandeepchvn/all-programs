@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.ty&apos; to &apos;com.ty.createFetch&apos;&#x0D;&#x0A;- Original project: &apos;cookie-session&apos;&#x0D;&#x0A;- Original element: &apos;cookie-session/src/main/java/com.ty&apos;&#x0D;&#x0A;- Renamed element: &apos;cookie-session/src/main/java/com.ty.createFetch&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.ty&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.ty" name="com.ty.createFetch" qualified="false" references="true" stamp="1692288255905" textual="false" version="1.0"/>
+</session>

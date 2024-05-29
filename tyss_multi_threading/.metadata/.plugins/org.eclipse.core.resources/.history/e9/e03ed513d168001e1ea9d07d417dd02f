@@ -1,0 +1,14 @@
+package com.ty.multi_thrading;
+
+public class MyThreadDriver {
+	
+	public static void main(String[] args) {
+		
+		MyThread mt = new MyThread();
+		
+		
+		mt.run();
+		
+		
+	}
+}

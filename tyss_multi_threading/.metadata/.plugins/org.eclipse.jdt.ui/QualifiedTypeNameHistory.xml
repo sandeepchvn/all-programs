@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.ty.multi_thrading.MyThreah"/>
+    <fullyQualifiedTypeName name="com.ty.multi_thrading.MyThreadDriver"/>
+    <fullyQualifiedTypeName name="com.ty.multi_thrading.MyThread"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="com.ty.runnable.Pen"/>
+    <fullyQualifiedTypeName name="com.ty.data_inconsistency.Data1"/>
+    <fullyQualifiedTypeName name="com.ty.data_inconsistency.Data2"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="com.ty.syncronise.Students"/>
+    <fullyQualifiedTypeName name="com.ty.syncronise.Trainer"/>
+</qualifiedTypeNameHistroy>

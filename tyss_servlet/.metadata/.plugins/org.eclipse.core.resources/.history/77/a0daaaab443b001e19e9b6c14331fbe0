@@ -1,0 +1,8 @@
+package demo;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+@WebServlet(value = "/reg")
+public class Register extends HttpServlet{
+
+}

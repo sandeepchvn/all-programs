@@ -1,0 +1,9 @@
+package com.ty.syncronise;
+
+public class Driver {
+	public static void main(String[] args) {
+		Trainer trainer=new Trainer();
+		Students s=new Students("sandeep", null)
+		
+	}
+}

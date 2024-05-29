@@ -1,0 +1,24 @@
+INDEX VERSION 1.4+C:\Users\sande\Desktop\tyss\tyss_servlet\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+559223016.index
+1995966019.index
+1347262502.index
+3435648363.index
+1887637569.index
+2619807712.index
+226987955.index
+4028052156.index
+3172057951.index
+4242619555.index
+2454682951.index
+2040291269.index
+3601547878.index
+4176388049.index
+2327699710.index
+3899818432.index
+3015017574.index
+3368913209.index
+4024944366.index
+3021105851.index
+340302320.index
+3019168131.index
+2146067977.index

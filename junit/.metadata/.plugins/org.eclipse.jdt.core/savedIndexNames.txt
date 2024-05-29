@@ -1,0 +1,9 @@
+INDEX VERSION 1.134+C:\Users\sande\Desktop\tyss\junit\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+870362163.index
+2682857448.index
+3844136297.index
+3916151503.index
+3567249706.index
+3253967689.index
+3775685948.index

@@ -1,0 +1,13 @@
+package BookProject;
+
+import java.util.ArrayList;
+
+public class BookView {
+public static void main(String[] args) {
+	ArrayList<Book> lib=new ArrayList<Book>();
+	lib.add(new Book(1,"harry potter",800));
+	lib.add(new Book(2,"barbie",700));
+	lib.add(new Book(1,"RRR",110));
+	lib.add(new Book(1,"KGF",1000));
+}
+}

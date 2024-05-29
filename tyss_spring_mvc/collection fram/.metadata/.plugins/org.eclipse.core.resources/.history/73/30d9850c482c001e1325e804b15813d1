@@ -1,0 +1,51 @@
+package phone_book;
+
+import java.util.Scanner;
+import java.util.TreeSet;
+
+public class ContactController {
+	private TreeSet<Contact> contacts=new TreeSet<Contact>();
+	private Scanner r=new Scanner(System.in);
+	public void add() {
+		Contact contact=new Contact();
+		System.out.println("enter the name");
+		contact.setName(r.next());
+		System.out.println("enter the number");
+		contact.setPhone(r.nextLong());
+		contacts.add(contact);
+	}
+	public void delete() {
+		System.out.println("enter name to delete contact");
+		String name=r.next();
+		Contact removeCon=new Contact();
+		for(Contact c:contacts) {
+			if(c.getName().equalsIgnoreCase(name)) {
+				removeCon=c;
+			}
+		}
+		if(removeCon != null) {
+			contacts.remove(removeCon);
+			System.out.println("contact is deleted");
+		}
+		else
+			System.out.println("entered name is not present to delete the contact");
+	}
+	public void findContact() {
+		System.out.println("enter name to find contact");
+		String name=r.next();
+		//Contact find=new Contact();
+		for(Contact c:contacts) {
+			if(c.getName().equalsIgnoreCase(name)) {
+				//removeCon=c;
+				System.out.println("name "+c.getName());
+				System.out.println("phone "+c.getPhone());
+			}
+		}
+		if(removeCon != null) {
+			contacts.remove(removeCon);
+			System.out.println("contact is deleted");
+		}
+		else
+			System.out.println("entered name is not present to delete the contact");
+	}
+}

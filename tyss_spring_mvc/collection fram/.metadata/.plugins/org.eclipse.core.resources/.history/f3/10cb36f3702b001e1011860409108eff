@@ -1,0 +1,18 @@
+package org.tyss.treeset;
+
+import java.util.TreeSet;
+
+public class TreeSet1 {
+	public static void main(String[] args) {
+		TreeSet<Pen> set = new TreeSet<>();
+		set.add(new Pen(23, "pink"));
+		set.add(new Pen(53, "red"));
+		set.add(new Pen(13, "red"));
+		set.add(new Pen(13, "red"));
+		set.add(new Pen(43, "white"));
+		System.out.println(set.size());
+		System.out.println(set);
+		for (Pen p : set)
+			System.out.println(p);
+	}
+}

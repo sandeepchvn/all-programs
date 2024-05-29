@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ResponseStructure.java&apos; to &apos;student-management-system/src/main/java/com.ty.exception&apos;&#x0D;&#x0A;- Original project: &apos;custome-exception&apos;&#x0D;&#x0A;- Destination element: &apos;student-management-system/src/main/java/com.ty.exception&apos;&#x0D;&#x0A;- Original element: &apos;com.ty.customeexception.ResponseStructure.java&apos;" description="Copy compilation unit" destination="=student-management-system/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ty.exception" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.ty.customeexception{ResponseStructure.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1695804842363" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,13 @@
+package assignment.texteditor;
+
+import java.util.LinkedList;
+import java.util.Scanner;
+
+public class TextController {
+	LinkedList<String> textList = new LinkedList<String>();
+	public Scanner read = new Scanner(System.in);
+	public void saveText() {
+		System.out.println("enter the text");
+		textList.add(read.next());
+	}
+}

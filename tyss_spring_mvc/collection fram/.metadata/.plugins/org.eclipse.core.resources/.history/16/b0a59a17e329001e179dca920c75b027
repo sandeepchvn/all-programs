@@ -1,0 +1,13 @@
+package org.tyss.Hashset;
+
+import java.util.HashSet;
+
+public class HashSet1 {
+public static void main(String[] args) {
+	HashSet<Employee> emps=new HashSet<Employee>();
+	emps.add(new Employee(2,"sandeep"));
+	emps.add(new Employee(2,"sandeep"));
+	emps.add(new Employee(2,"sandeep"));
+	System.out.println(emps);
+}
+}

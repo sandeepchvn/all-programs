@@ -1,0 +1,12 @@
+package org.tyss.treeset;
+
+public class Pen {
+	String color="blue";
+	int price;
+	Pen() {
+
+	}
+	Pen( int price) {
+		this.price = price;
+	}
+}

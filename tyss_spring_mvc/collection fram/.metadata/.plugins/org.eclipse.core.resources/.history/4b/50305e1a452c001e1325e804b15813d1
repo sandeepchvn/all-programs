@@ -1,0 +1,19 @@
+package phone_book;
+
+import java.util.Scanner;
+import java.util.TreeSet;
+
+public class ContactController {
+	private TreeSet<Contact> contacts=new TreeSet<Contact>();
+	Scanner r=new Scanner(System.in);
+	public void add() {
+		Contact contact=new Contact();
+		System.out.println("enter the name");
+		contact.setName(r.next());
+		System.out.println("enter the number");
+		contact.setPhone(r.nextLong());
+		contacts.add(contact);
+		
+		contacts.add(e)
+	}
+}

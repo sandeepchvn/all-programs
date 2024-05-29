@@ -1,0 +1,52 @@
+package assignments.evenOddSum;
+
+import java.util.LinkedList;
+import java.util.Scanner;
+
+public class EvenOdd {
+	private LinkedList<Integer> list_in = new LinkedList<Integer>();
+	private Scanner read = new Scanner(System.in);
+
+	public void addNumbersInList() {
+		System.out.println("how many numbers you want to add ");
+		int num = read.nextInt();
+		System.out.println("enter " + num + " numbers");
+		while (num != 0) {
+			list_in.add(read.nextInt());
+			num--;
+		}
+	}
+
+	public int minOddNUm() {
+		int min = -9;
+		for (int n : list_in) {
+			if (n % 2 != 0 && n < min) {
+				min = n;
+			}
+		}
+		System.out.println(min);
+		return 0;
+	}
+
+	public int maxEvenNUm() {
+		int max = 0;
+		for (int n : list_in) {
+
+			if (n % 2 == 0 && n > max) {
+				max = n;
+			}
+
+		}
+		System.out.println(max);
+		return max;
+
+	}
+
+	public void sumOfEvenAndOddd() {
+		System.out.println( ((minOddNUm() + maxEvenNUm())));
+	}
+
+	public void sum() {
+
+	}
+}

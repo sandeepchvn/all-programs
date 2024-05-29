@@ -1,0 +1,7 @@
+package generic;
+
+public class Print<Integer> {
+	void print(int t) {
+		System.out.println(t);
+	}
+}

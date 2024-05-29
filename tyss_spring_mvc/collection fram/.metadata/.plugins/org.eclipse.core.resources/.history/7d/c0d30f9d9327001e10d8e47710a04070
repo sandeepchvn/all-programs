@@ -1,0 +1,66 @@
+package assignment.texteditor;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Scanner;
+
+public class TextController {
+	LinkedList<String> textList = new LinkedList<String>();
+	ArrayList<String> dictionary=new ArrayList<String>();
+	public Scanner read = new Scanner(System.in);
+	int pointer = -1;
+
+	public void saveText() {
+		System.out.println("enter the text");
+		while (pointer < textList.size() - 1) {
+			textList.removeLast();
+		}
+		textList.add(read.next());
+		pointer++;
+	}
+
+	public void undo() {
+		if (pointer >= 0) {
+			pointer--;
+		}
+	}
+
+	public void redo() {
+		if (pointer < textList.size() - 1) {
+			pointer++;
+		}
+	}
+
+	public void display() {
+		for (int i = 0; i <= pointer; i++) {
+			System.out.print(textList.get(i) + " ");
+		}
+	}
+	public void addWordsToDictionary() {
+		System.out.println("enter exit to quit");
+		System.out.println("enter the word to add Dictionary");
+		
+		String str="";
+		while(true) {
+			str=read.next();
+			if(str.equalsIgnoreCase("exit")) 
+			{
+				break;
+			}
+			dictionary.add(str);
+		}
+		System.out.println(dictionary.size()+" words successfully added...!");
+	}
+	public String autoSuggest(String str) {
+		int i=0;
+		System.out.println("select the word ");
+		for(String word:dictionary) {
+			i++;
+			if(word.startsWith(str)) 
+			{
+				System.out.println(i+". "+word);
+			}
+		}
+		return null;
+	}
+}

@@ -1,0 +1,28 @@
+package assignment.texteditor;
+
+import java.util.LinkedList;
+import java.util.Scanner;
+
+public class TextController {
+	LinkedList<String> textList = new LinkedList<String>();
+	public Scanner read = new Scanner(System.in);
+	int pointer=-1;
+	public void saveText() {
+		System.out.println("enter the text");
+		while(pointer>-1) {
+			
+		}
+		textList.add(read.next());
+		pointer++;
+	}
+	public void undo() {
+		while(pointer>=0) {
+			pointer--;
+		}
+	}
+	public void redo() {
+		while(pointer<textList.size()-1) {
+			pointer++;
+		}
+	}
+}

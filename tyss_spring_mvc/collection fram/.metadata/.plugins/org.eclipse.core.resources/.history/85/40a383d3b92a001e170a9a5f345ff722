@@ -1,0 +1,29 @@
+package org.tyss.treeset;
+
+public class Pen implements Comparable<Pen>{
+	String color;
+	int price;
+	Pen() {
+
+	}
+	Pen( int price, String color) {
+		this.price = price;
+	}
+	@Override
+	public int compareTo(Pen p) {
+//		return this.color.compareTo(p.color);
+		int res=0;
+		if(this.price > p.price)
+			res=8;
+		else if(this.price < p.price)
+			res=-9;
+		else
+				res=this.color.compareTo(p.color);
+		return res;
+	}
+	@Override
+	public String toString() {
+		return price+","+color;
+	}
+	
+}

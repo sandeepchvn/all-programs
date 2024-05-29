@@ -1,0 +1,20 @@
+package org.tyss.Hashset;
+
+import java.util.HashSet;
+import java.util.Set;
+import java.util.Locale.Category;
+
+public class ItemController {
+	private Set<Item> cartItems = new HashSet<Item>();
+
+	public void addItem(Item item) {
+		cartItems.add(item);
+	}
+	public void removeItem(Item item) {
+		if(cartItems.remove(item)) 
+		{
+			System.out.println("Item is removed From the Cart");
+		}
+		else
+	}
+}

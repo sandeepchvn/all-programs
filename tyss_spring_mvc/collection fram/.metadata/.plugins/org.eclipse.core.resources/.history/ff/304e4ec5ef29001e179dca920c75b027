@@ -1,0 +1,15 @@
+package org.tyss.Hashset;
+
+import java.util.Scanner;
+
+public class ItemView {
+	static Scanner read = new Scanner(System.in);
+
+	public static void main(String[] args) {
+		ItemController controller = new ItemController();
+		System.out.println("welcom to cart Application");
+		while(true) {
+			System.out.println("1. to save\n2. to search\n3. to remove\n4. to get total price");
+		}
+	}
+}

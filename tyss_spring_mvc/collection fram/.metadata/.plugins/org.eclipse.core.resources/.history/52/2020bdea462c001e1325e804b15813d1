@@ -1,0 +1,25 @@
+package phone_book;
+
+import java.util.Scanner;
+
+public class ContcatView {
+	public static void main(String[] args) {
+		System.out.println("Welcome to Phone Book Application");
+		while(true) {
+			System.out.println("enter 1 to add the contact");
+			System.out.println("enter 2 to delete the contact");
+			Scanner sc= new Scanner(System.in);
+			ContactController c=new ContactController();
+			switch(sc.nextInt()) {
+			case 1:{
+				c.add();
+				break;
+			}
+			case 2:{
+				c.delete();
+				break;
+			}
+			}
+		}
+	}
+}

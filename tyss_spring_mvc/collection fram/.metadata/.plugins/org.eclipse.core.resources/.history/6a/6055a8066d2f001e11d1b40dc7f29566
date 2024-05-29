@@ -1,0 +1,16 @@
+package Map;
+
+public class Map2 {
+public static void main(String[] args) {
+	
+}
+}
+class Token{
+	int no;
+	String date;
+	
+	Token(int no, String date){
+		this.no=no;
+		this.date=date;
+	}
+}

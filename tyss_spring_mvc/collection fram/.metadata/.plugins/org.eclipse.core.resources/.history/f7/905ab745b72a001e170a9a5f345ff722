@@ -1,0 +1,15 @@
+package org.tyss.treeset;
+
+import java.util.TreeSet;
+
+public class TreeSet1 {
+	public static void main(String[] args) {
+		TreeSet set=new  TreeSet();
+		set.add(33);
+		set.add(43);
+		set.add(23);
+		set.add(66);
+		set.add(23);
+		System.out.println(set);
+	}
+}

@@ -1,0 +1,11 @@
+package generic;
+
+public class Driver {
+	public static void main(String[] args) {
+		Print<String> p1=new Print<String>();
+		p1.print("hi String");
+		Print p2=new P3= new Print();
+		p3.print(674.34);
+		
+	}
+}

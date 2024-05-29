@@ -1,0 +1,13 @@
+
+Sep 07, 2023 15:41:18.76 NEW SESSION
+Sep 07, 2023 15:41:18.76 [1584:18588:0907/154118.762:ERROR:device_event_log_impl.cc(222)] [15:41:18.762] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Sep 07, 2023 16:01:37.83 [18900:18912:0907/160137.832:ERROR:device_event_log_impl.cc(222)] [16:01:37.833] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Sep 07, 2023 16:01:48.06 [18900:9136:0907/160148.064:ERROR:get_updates_processor.cc(261)] PostClientToServerMessage() failed during GetUpdates with error 2
+Sep 07, 2023 16:06:09.92 [15692:1556:0907/160609.926:ERROR:device_event_log_impl.cc(222)] [16:06:09.930] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+
+Sep 08, 2023 10:21:18.30 NEW SESSION
+Sep 08, 2023 10:21:18.30 [15892:5740:0908/102118.306:ERROR:device_event_log_impl.cc(222)] [10:21:18.308] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Sep 08, 2023 10:22:41.26 [13016:23936:0908/102241.266:ERROR:device_event_log_impl.cc(222)] [10:22:41.265] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Sep 08, 2023 10:23:37.41 [8500:1048:0908/102337.410:ERROR:device_event_log_impl.cc(222)] [10:23:37.410] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Sep 08, 2023 10:33:48.16 [21384:19060:0908/103348.168:ERROR:device_event_log_impl.cc(222)] [10:33:48.171] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+Sep 08, 2023 10:51:37.40 [21568:1996:0908/105137.402:ERROR:device_event_log_impl.cc(222)] [10:51:37.397] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
